@@ -1,0 +1,147 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 20px;
+}
+.menu{
+    
+color: rgb(110, 223, 100);
+border: none;
+cursor: pointer;
+padding:20px;
+margin-top:20px;
+font-size: x-large;
+
+}
+
+
+.botones{
+    background-color: rgb(28, 207, 103);
+    font-size: x-large;
+    font-weight: 500;
+    color: rgb(184, 238, 197);
+  
+    
+}
+
+.dropdown {
+position: absolute;
+
+
+color:gray;
+}
+.contenedorMenu{
+    width:auto;
+    height:auto;
+    position: relative;
+    background-color: rgb(186, 240, 217);
+}
+.izquierda{
+    position: relative;
+    top: 100%;
+    left:100%;
+    transform: translate(-50%,-50%);
+  }
+  .contenedor{
+    width:auto;
+    height:auto;
+    position: relative;
+    background-color:rgb(253, 253, 255)
+    
+  }
+  .titulos{
+      color:rgba(15, 134, 78, 0.89);
+      font-weight: 1000;
+      font-size: xx-large;
+  }
+  .texto{
+    color:rgb(126, 177, 137);
+    font-weight: 500;
+  }
+  .centrar{
+    position: relative;
+    top: 50px;
+    left:300px;
+    
+  }
+  .icono{
+    color:rgba(5, 85, 41, 0.89);
+    font-weight: 500;
+    
+  }
+  .h2{
+    color:rgba(5, 33, 85, 0.89);
+    font-weight: 500;
+  }
+  .der{
+    position: absolute;
+    top: 5px;
+    right:0Px;
+  }
+  .sub{
+      
+
+    width:255px;
+    height:300px;
+    background-color:rgb(253, 253, 255);
+    border-style: inherit;
+   display: inline-block;
+  }
+  .titulos2{
+    color:rgba(15, 134, 55, 0.89);
+    font-weight: 700;
+    font-size: large;
+}
+.izq{
+    position: absolute;
+    top: 5px;
+    left:0Px;
+  }
+  details {
+    background-color: #f6f8fa; /* color de fondo cuando no está desplegado */
+}
+
+details[open] {
+    background: #ffffff; /* color de fondo cuando está desplegado */
+}
+etails summary {
+    font-weight: 400; /* peso de la tipografía cuando  no está desplegado */
+    list-style: none; /* ocultamos la flecha */
+    cursor: pointer; /* cambia el cursor del puntero */
+}
+
+details[open] summary {
+    font-weight: 600; /* peso de la tipografía cuando está desplegado */
+}
+details p {
+    background: #f6f8fa; /* color de fondo del contenido oculto */
+}
+details {
+    position: relative;
+}
+
+.details summary::before {
+    position: absolute;
+    content: "";
+    font-size: 1.75rem;
+    top: 0px;
+    right: 1px;
+}
+
+.fin{
+  width:auto;
+  height:auto;
+    background-color:rgb(198, 243, 213) ;
+    border-style: inherit;
+    display: inline-block;
+}.sub2{
+      
+
+  width:255px;
+  height:300px;
+  background-color:rgb(253, 253, 255);
+  border-style: inherit;
+ display:inline-block;
+}
